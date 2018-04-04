@@ -5,7 +5,7 @@ from cv2 import imread
 from numpy import *
 
 # 画像の読み込み
-gazo = imread( "test4.bmp", 0 )
+gazo = imread( "kadai7.bmp", 0 )
 
 
 # 課題： 6つの図形の面積（画素数）を計算しなさい．

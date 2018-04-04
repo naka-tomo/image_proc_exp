@@ -4,7 +4,7 @@ from pylab import *
 from cv2 import imread
 
 # 画像を読み込み
-gazo = imread( "test2.bmp", 0 )
+gazo = imread( "kadai5.bmp", 0 )
 
 # 画像を表示
 imshow(gazo, cmap="gray", vmin=0, vmax=255, interpolation="None")
@@ -21,10 +21,10 @@ for x in range(384):
         # 課題：濃度ヒストグラムを参照して，画像の特徴を表わす二値画像を生成しなさい．
         #      レポートでは，作成したプログラムによってどのような処理が行われているのかを
         #      ヒストグラムを使って分かりやすく説明しなさい．
-        if gazo[y][x]<20:
+        if gazo[y][x]<0:
             gazo2[y][x] = 0
         else:
-            gazo2[y][x] = 255
+            gazo2[y][x] = 0
 
 # 画像を表示
 imshow(gazo2, cmap="gray", vmin=0, vmax=255, interpolation="None")

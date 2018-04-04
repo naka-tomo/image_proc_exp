@@ -4,7 +4,7 @@ from pylab import *
 from cv2 import imread
 
 # 画像を読み込み
-gazo = imread( "test.bmp", 0 )
+gazo = imread( "kadai4.bmp", 0 )
 
 print "元画像"
 print gazo
@@ -28,9 +28,11 @@ for x in range(1,11):
         gasochi = 0
         for xx in range(3):
             for yy in range(3):
-                gasochi += int(gazo[y+yy-1][x+xx-1] * filter[yy][xx])
+                # ここでfilterの値をgazoに掛ける
+                gasochi += gazo[y+yy-1][x+xx-1]
 
-        # 絶対値を取る
+        # 整数にして絶対値を取る
+        gasochi = int(gasochi) 
         if gasochi<0:
             gasochi =-gasochi
         gazo2[y][x] = gasochi
