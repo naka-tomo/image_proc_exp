@@ -29,18 +29,14 @@
 <br>　[ソースコード](kadai/hello_world.py)
 <br>　[画像](kadai/hello_world.png)
 
-1. [準備](#準備)でダウンロードし，展開したフォルダ内の`IDLEX (Python GUI)`をダブルクリックで起動しなさい．IDLEXはPythonのソースコードを編集・実行するためのソフトです．
-<img src="img/idle.gif" width="400" alt="" border="1">
+1. [準備](#準備)でダウンロードし，展開したフォルダ内の`IDLEX (Python GUI)`をダブルクリックで起動しなさい．IDLEXはPythonのソースコードを編集・実行するためのソフトです．<br><img src="img/idle.gif" width="400" alt="" border="1">
 
-1. IDLEの`File`&rarr;`Open`から，手順1でダウンロードしたソースコード`hello_world.py`を開きなさい．表示されたテキストがプログラムのソースコードです．<img src="img/openfile.gif" width="400" alt="" border="1">
+1. IDLEの`File`&rarr;`Open`から，手順1でダウンロードしたソースコード`hello_world.py`を開きなさい．表示されたテキストがプログラムのソースコードです． <br><img src="img/openfile.gif" width="400" alt="" border="1">
 
-1. IDLEの`Run`&rarr;`Run Module`によりプログラムを実行できます．<br>
-<img src="img/run.gif" width="400" alt="" border="1">
+1. IDLEの`Run`&rarr;`Run Module`によりプログラムを実行できます．<br><img src="img/run.gif" width="400" alt="" border="1">
 
-1. 一方のウィンドウには処理された画像が表示されます．ウィンドウの下側にある保存ボタン（図中の赤丸で囲まれたボタン）を押すと表示されている画像を保存できます．
-<br><img src="img/graph.PNG" width="400" alt="" border="1"><br>
-もう一方のウィンドウには,プログラム中で*print*関数によって指定された変数の中身が表示されます．このプログラムの場合は，画像の画素値が表示されています．`表示されている文字列を選択`&rarr; `右クリック`&rarr;`Copy`でコピーし，メモ帳などに貼り付けることで保存できます．
-<br><img src="img/shell.PNG" width="400" alt="" border="1"><br>
+1. 一方のウィンドウには処理された画像が表示されます．ウィンドウの下側にある保存ボタン（図中の赤丸で囲まれたボタン）を押すと表示されている画像を保存できます．<br><img src="img/graph.PNG" width="400" alt="" border="1"><br>
+もう一方のウィンドウには,プログラム中で*print*関数によって指定された変数の中身が表示されます．このプログラムの場合は，画像の画素値が表示されています．`表示されている文字列を選択`&rarr; `右クリック`&rarr;`Copy`でコピーし，メモ帳などに貼り付けることで保存できます．<br><img src="img/shell.PNG" width="400" alt="" border="1"><br>
 
 1. 各ウィンドウの右上の☓ボタンでウィンドウを閉じなさい．ウィンドウを閉じないとエラーとなる場合があります．もしエラーが発生したら，全てのウィンドウを閉じて手順2からやりなおしてください．
 
