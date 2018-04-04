@@ -29,7 +29,8 @@
 <br>　[ソースコード](kadai/hello_world.py)
 <br>　[画像](kadai/hello_world.png)
 
-1. [準備](#準備)でダウンロードし，展開したフォルダ内の`IDLEX (Python GUI)`をダブルクリックで起動しなさい．IDLEXはPythonのソースコードを編集・実行するためのソフトです．<img src="img/idle.gif" width="400" alt="" border="1">
+1. [準備](#準備)でダウンロードし，展開したフォルダ内の`IDLEX (Python GUI)`をダブルクリックで起動しなさい．IDLEXはPythonのソースコードを編集・実行するためのソフトです．
+<img src="img/idle.gif" width="400" alt="" border="1">
 
 1. IDLEの`File`&rarr;`Open`から，手順1でダウンロードしたソースコード`hello_world.py`を開きなさい．表示されたテキストがプログラムのソースコードです．<img src="img/openfile.gif" width="400" alt="" border="1">
 
