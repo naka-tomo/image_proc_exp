@@ -26,8 +26,8 @@
 各課題に応じて，ソースコードと画像をダウンロードし，ソースコードを書き換えて実行することになります．以下の手順をよく確認し，何をしているかを理解して，課題へと進みなさい．
 
 1. 以下のソースコードと画像を右クリックメニューの`名前をつけてリンク先を保存`で**同じフォルダ内**に**ファイル名は変更せずに**保存しなさい．
-<br>　[ソースコード](kadai/hello_world.py)
-<br>　[画像](kadai/hello_world.png)
+<br>　[ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/hello_world.py)
+<br>　[画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/hello_world.png)
 
 1. [準備](#準備)でダウンロードし，展開したフォルダ内の`IDLEX (Python GUI)`をダブルクリックで起動しなさい．IDLEXはPythonのソースコードを編集・実行するためのソフトです．<br><img src="img/idle.gif" width="400" alt="" border="1">
 
@@ -55,7 +55,7 @@
 
 ### 課題1. 画素値と画像の関係
 
-[ソースコード](kadai/kadai1.py)
+[ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai1.py)
 
 1. プログラムをダウンロードして実行し，ソースコードを読んで何をしているかを確認しなさい．
 
@@ -66,7 +66,7 @@
 
 ### 課題2. 画素位置と画像の関係
 
-[ソースコード](kadai/kadai2.py)
+[ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai2.py)
 
 1. プログラムをダウンロードして実行し，ソースコードを読んで何をしているかを確認しなさい．
 
@@ -78,7 +78,7 @@
 
 ### 課題3. 図形の描画
 
-[ソースコード](kadai/kadai3.py)
+[ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai3.py)
 
 1. プログラムをダウンロードして実行し，ソースコードを読んで何をしているかを確認しなさい．
 
@@ -89,8 +89,8 @@
 
 ### 課題4. フィルタ
 
-[ソースコード](kadai/kadai4.py)
-[画像](kadai/kadai4.bmp)
+[ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai4.py)
+[画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai4.bmp)
 
 1. ソースコードをダウンロードして実行し，ソースコードを読んで何をしているかを確認しなさい．
 
@@ -101,8 +101,8 @@
 
 ### 課題5. ヒストグラムと二値化
 
-[ソースコード](kadai/kadai5.py)
-[画像](kadai/kadai5.bmp)
+[ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai5.py)
+[画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai5.bmp)
 
 1. ソースコードをダウンロードして実行し，ソースコードを読んで何をしているかを確認しなさい．
 
@@ -112,8 +112,8 @@
 
 ### 課題6. ヒストグラムと色調補正
 
-[ソースコード](kadai/kadai6.py)
-[画像](kadai/kadai6.bmp)
+[ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai6.py)
+[画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai6.bmp)
 
 1. ソースコードをダウンロードして実行し，ソースコードを読んで何をしているかを確認しなさい．
 
@@ -126,8 +126,8 @@
 
 ### 課題7. 図形の面積の計算
 
-[ソースコード](kadai/kadai7.py)
-[画像](kadai/test7.bmp)
+[ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai7.py)
+[画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/test7.bmp)
 
 1. ダウンロードしたソースコードを改変し，画像中の6つの面積（画素数）を計算しなさい．
 
@@ -136,8 +136,8 @@
 
 ### 課題8. 図形の輪郭線の長さの計算
 
-[ソースコード](kadai/kadai8.py)
-[画像](kadai/kadai8.bmp)
+[ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai8.py)
+[画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai8.bmp)
 
 1. ダウンロードしたソースコードを改変し，画像中の6つの各図形の輪郭線の長さを計算しなさい．
 
