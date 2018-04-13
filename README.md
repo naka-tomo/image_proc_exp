@@ -132,7 +132,7 @@
 
 [ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai7.py)
 
-[画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/test7.bmp)
+[画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kdai7.bmp)
 
 1. ダウンロードしたソースコードを改変し，画像中の6つの面積（画素数）を計算しなさい．
 
