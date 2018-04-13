@@ -30,10 +30,10 @@ for x in range(1,11):
                 # ここでfilterの値をgazoに掛ける
                 gasochi += gazo[y+yy-1][x+xx-1]
 
-        # 整数にして絶対値を取る
+        # 0以下を切り捨てる
         gasochi = int(gasochi) 
         if gasochi<0:
-            gasochi =-gasochi
+            gasochi =0
         gazo2[y][x] = gasochi
 
 print "変換後の画像"
