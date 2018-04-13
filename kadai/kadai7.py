@@ -13,5 +13,6 @@ gazo = imread( "kadai7.bmp", 0 )
 
 
 # 画素値を表示
+figure()
 imshow(gazo, cmap="gray", vmin=0, vmax=255)
 show()
