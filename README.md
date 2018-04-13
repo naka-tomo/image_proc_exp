@@ -90,6 +90,7 @@
 ### 課題4. フィルタ
 
 [ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai4.py)
+
 [画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai4.bmp)
 
 1. ソースコードをダウンロードして実行し，ソースコードを読んで何をしているかを確認しなさい．
@@ -102,6 +103,7 @@
 ### 課題5. ヒストグラムと二値化
 
 [ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai5.py)
+
 [画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai5.bmp)
 
 1. ソースコードをダウンロードして実行し，ソースコードを読んで何をしているかを確認しなさい．
@@ -113,6 +115,7 @@
 ### 課題6. ヒストグラムと色調補正
 
 [ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai6.py)
+
 [画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai6.bmp)
 
 1. ソースコードをダウンロードして実行し，ソースコードを読んで何をしているかを確認しなさい．
@@ -127,6 +130,7 @@
 ### 課題7. 図形の面積の計算
 
 [ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai7.py)
+
 [画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/test7.bmp)
 
 1. ダウンロードしたソースコードを改変し，画像中の6つの面積（画素数）を計算しなさい．
@@ -137,6 +141,7 @@
 ### 課題8. 図形の輪郭線の長さの計算
 
 [ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai8.py)
+
 [画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/kadai8.bmp)
 
 1. ダウンロードしたソースコードを改変し，画像中の6つの各図形の輪郭線の長さを計算しなさい．
