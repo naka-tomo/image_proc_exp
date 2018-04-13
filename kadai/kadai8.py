@@ -11,14 +11,28 @@ gazo = imread( "kadai8.bmp", 0 )
 figure()
 hist( gazo.flatten(), 256, (0,255) )
 
-for y in range(0,360):
-    for x in range(0,600):
-        # 課題： 6つの図形の輪郭線の長さ（画素数）を計算しなさい．
-        #      レポートでは計算方法を分かりやすく説明しなさい．
-        gazo[y][x] = gazo[y][x]
+# 課題： 6つの図形の輪郭線の長さ（画素数）を計算しなさい．
+#      レポートでは計算方法を分かりやすく説明しなさい．
+# ヒント：　二段階の処理が必要．．．
+gazo2 = zeros( (360,600) )
+for y in range(1,359):
+    for x in range(1,599):
+        gazo2[y][x] = gazo[y][x]
+
+
+gazo3 = zeros( (360,600) )
+for y in range(1,359):
+    for x in range(1,599):
+        gazo3[y][x] = gazo2[y][x]
+
 
 
 # 画素値を表示
 figure()
 imshow(gazo, cmap="gray", vmin=0, vmax=255)
+figure()
+imshow(gazo2, cmap="gray", vmin=0, vmax=255)
+figure()
+imshow(gazo3, cmap="gray", vmin=0, vmax=255)
+
 show()
