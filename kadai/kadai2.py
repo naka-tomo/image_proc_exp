@@ -12,7 +12,6 @@ print gazo
 
 # 画像を表示
 imshow(gazo, cmap="gray", vmin=0, vmax=255)
-show()
 
 # 課題：配列のインデックスの数字（以下の）例では3と7)を変えて，
 #     これらの数字と画像との対応がどのようになっているか確認しなさい．
@@ -22,5 +21,6 @@ print "変換後の画像"
 print gazo
 
 # 画像を表示
+figure()
 imshow(gazo, cmap="gray", vmin=0, vmax=255)
 show()

@@ -11,7 +11,6 @@ print gazo
 
 # 画像を表示
 imshow(gazo, cmap="gray", vmin=0, vmax=255, interpolation="None")
-show()
 
 # 画像を変換
 gazo2 = zeros((12,12))
@@ -41,5 +40,6 @@ print "変換後の画像"
 print gazo2
 
 # 画像を表示
+figure()
 imshow(gazo2, cmap="gray", vmin=0, vmax=255, interpolation="None")
 show()

@@ -12,7 +12,6 @@ print gazo
 
 # 画像を表示
 imshow(gazo, cmap="gray", vmin=0, vmax=255)
-show()
 
 # 画像を変換
 for x in range(10):
@@ -25,5 +24,6 @@ print "変換後の画像"
 print gazo
 
 # 画像を表示
+figure()
 imshow(gazo, cmap="gray", vmin=0, vmax=255, interpolation="None")
 show()
