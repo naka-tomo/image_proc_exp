@@ -19,7 +19,7 @@
 
 ## 準備
 
-実験では，Pythonというプログラミング言語を使用します．実験開始前に，[WinPython.zip](https://drive.google.com/uc?export=download&id=1pZRkxrIvsUgxX2ssmpOkpDhkrpNHU7Kh)からダウンロードし，`右クリック`&rarr;`全てを展開`で展開しなさい．
+実験では，Pythonというプログラミング言語を使用します．実験開始前に，[WinPython.zip](https://drive.google.com/uc?export=download&id=1pZRkxrIvsUgxX2ssmpOkpDhkrpNHU7Kh)からダウンロードし，`右クリック`&rarr;`7-Zip`&rarr;`ここに展開`で展開しなさい．
 
 ## 練習
 
