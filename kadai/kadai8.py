@@ -14,15 +14,15 @@ hist( gazo.flatten(), 256, (0,255) )
 # 課題： 6つの図形の輪郭線の長さ（画素数）を計算しなさい．
 #      レポートでは計算方法を分かりやすく説明しなさい．
 # ヒント：　二段階の処理が必要．．．
-gazo2 = zeros( (360,600) )
-for y in range(1,359):
-    for x in range(1,599):
+gazo2 = zeros( (358,499) )
+for y in range(1,357):
+    for x in range(1,498):
         gazo2[y][x] = gazo[y][x]
 
 
-gazo3 = zeros( (360,600) )
-for y in range(1,359):
-    for x in range(1,599):
+gazo3 = zeros( (358,499) )
+for y in range(1,357):
+    for x in range(1,498):
         gazo3[y][x] = gazo2[y][x]
 
 
