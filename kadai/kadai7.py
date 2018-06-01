@@ -12,8 +12,8 @@ figure()
 hist( gazo.flatten(), 256, (0,255) )
 
 
-for y in range(0,360):
-    for x in range(0,600):
+for y in range(0,358):
+    for x in range(0,499):
         # 課題： 6つの図形の面積（画素数）を計算しなさい．
         #      レポートでは計算方法を分かりやすく説明しなさい．
         gazo[y][x] = gazo[y][x]
