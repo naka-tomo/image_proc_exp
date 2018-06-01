@@ -30,10 +30,12 @@ for x in range(1,11):
                 # ここでfilterの値をgazoに掛ける
                 gasochi += gazo[y+yy-1][x+xx-1]
 
-        # 0以下を切り捨てる
+        # 0〜255の範囲内に収める 
         gasochi = int(gasochi) 
         if gasochi<0:
-            gasochi =0
+            gasochi = 0
+        elif gasochi>255:
+            gasochi = 255
         gazo2[y][x] = gasochi
 
 print "変換後の画像"
