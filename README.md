@@ -19,7 +19,7 @@
 
 ## 準備
 
-実験では，Pythonというプログラミング言語を使用します．実験開始前に，[install.zip](https://github.com/naka-tomo/image_proc_exp/raw/master/Python/install.bat)を右クリックメニューの`名前をつけてリンク先を保存`で**デスクトップ**に保存しなさい．
+実験では，Pythonというプログラミング言語を使用します．実験開始前に，[install.bat](https://github.com/naka-tomo/image_proc_exp/raw/master/Python/install.bat)を右クリックメニューの`名前をつけてリンク先を保存`で**デスクトップ**に保存しなさい．
 保存したinstall.batをダブルクリックで実行し，WinPythonをインストールしなさい．
 インストールに成功すると **winpython.bat** がデスクトップに作成されます．
 
