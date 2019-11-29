@@ -19,7 +19,9 @@
 
 ## 準備
 
-実験では，Pythonというプログラミング言語を使用します．実験開始前に，[WinPython.zip](https://github.com/naka-tomo/image_proc_exp/blob/master/Python/WinPython.zip?raw=true)からダウンロードし，`右クリック`&rarr;`7-Zip`&rarr;`ここに展開`で展開しなさい．
+実験では，Pythonというプログラミング言語を使用します．実験開始前に，[install.zip](https://github.com/naka-tomo/image_proc_exp/raw/master/Python/install.bat)を右クリックメニューの`名前をつけてリンク先を保存`で**デスクトップ**に保存しなさい．
+保存したinstall.batをダブルクリックで実行し，WinPythonをインストールしなさい．
+インストールに成功すると **winpython.bat** がデスクトップに作成されます．
 
 ## 練習
 
@@ -29,7 +31,7 @@
 <br>　[ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/hello_world.py)
 <br>　[画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/hello_world.png)
 
-1. [準備](#準備)でダウンロードし，展開したフォルダ内の`IDLEX (Python GUI)`をダブルクリックで起動しなさい．IDLEXはPythonのソースコードを編集・実行するためのソフトです．<br><img src="img/idle.gif" width="400" alt="" border="1">
+1. [準備](#準備)でダウンロードし，インストールした`winpython.bat`をダブルクリックで実行し，IDLEXを起動しなさい．IDLEXはPythonのソースコードを編集・実行するためのソフトです．<br><img src="img/install.png" width="400" alt="" border="1">
 
 1. IDLEXの`File`&rarr;`Open`から，手順1でダウンロードしたソースコード`hello_world.py`を開きなさい．表示されたテキストがプログラムのソースコードです． <br><img src="img/openfile.gif" width="400" alt="" border="1">
 
