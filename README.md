@@ -19,7 +19,11 @@
 
 ## 準備
 
-実験では，Pythonというプログラミング言語を使用します．実験開始前に，[WinPython.zip](https://github.com/naka-tomo/image_proc_exp/blob/master/Python/WinPython.zip?raw=true)からダウンロードし，`右クリック`&rarr;`7-Zip`&rarr;`ここに展開`で展開しなさい．
+- 実験では，Pythonというプログラミング言語を使用します．実験開始前に，[install.bat](https://github.com/naka-tomo/image_proc_exp/raw/master/Python/install.bat)を右クリックメニューの`名前をつけてリンク先を保存`で**デスクトップ**に保存しなさい．
+保存したinstall.batをダブルクリックで実行し，WinPythonをインストールしなさい．
+インストールに成功すると **winpython.bat** がデスクトップに作成されます．
+- [install.bat](https://github.com/naka-tomo/image_proc_exp/raw/master/Python/install.bat)をダウンロードするとファイル名が「install.bat.txt」となってしまう場合があります．その場合は，ファイル名を「install.bat」に変更してください．
+- PCを終了するとPythonの環境が消されてしまうので，PCを起動したら毎回，インストールを実行してください．
 
 ## 練習
 
@@ -29,7 +33,7 @@
 <br>　[ソースコード](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/hello_world.py)
 <br>　[画像](https://raw.githubusercontent.com/naka-tomo/image_proc_exp/master/kadai/hello_world.png)
 
-1. [準備](#準備)でダウンロードし，展開したフォルダ内の`IDLEX (Python GUI)`をダブルクリックで起動しなさい．IDLEXはPythonのソースコードを編集・実行するためのソフトです．<br><img src="img/idle.gif" width="400" alt="" border="1">
+1. [準備](#準備)でダウンロードし，インストールした`winpython.bat`をダブルクリックで実行し，IDLEXを起動しなさい．IDLEXはPythonのソースコードを編集・実行するためのソフトです．<br><img src="img/install.png" width="400" alt="" border="1">
 
 1. IDLEXの`File`&rarr;`Open`から，手順1でダウンロードしたソースコード`hello_world.py`を開きなさい．表示されたテキストがプログラムのソースコードです． <br><img src="img/openfile.gif" width="400" alt="" border="1">
 
@@ -128,6 +132,7 @@
 
 
 ## 2周目：課題
+- PCを終了するとPythonの環境が消されてしまうので，PCを起動したら[準備](#準備)でダウンロードしたinstall.batをダブルクリックし，インストールを実行してください．
 
 ### 課題7. 図形の面積の計算
 
@@ -183,7 +188,7 @@
 
 - 本文：学籍番号・名前・実験日を必ず記載する
 
-- 提出期限：次回実験日前日の木曜23時59分
+- 提出期限：次回実験日前日の金曜23時59分
 
 - 受理状況の通知：  
 提出期限の1周間以内にメールで返信します．再提出の場合も，修正箇所をメールにて指示します．
